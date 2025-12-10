@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Confirmation</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+    }
+    .container {
+      width: 100%;
+      max-width: 600px;
+      margin: 0 auto;
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 8px;
+    }
+    .header {
+      text-align: center;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #e0e0e0;
+    }
+    .header h1 {
+      margin: 0;
+      font-size: 24px;
+      color: #333333;
+    }
+    .content {
+      padding: 20px 0;
+      color: #555555;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+    .button {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #007bff;
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 4px;
+      margin-top: 20px;
+    }
+    .footer {
+      text-align: center;
+      font-size: 12px;
+      color: #999999;
+      padding-top: 20px;
+      border-top: 1px solid #e0e0e0;
+    }
+    @media screen and (max-width: 600px) {
+      .container {
+        width: 95%;
+        padding: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Order Confirmed!</h1>
+    </div>
+    <div class="content">
+      <p>Hi John Doe,</p>
+      <p>Thank you for your order <strong>#12345</strong>. We’re excited to let you know that your purchase has been successfully processed.</p>
+      <p><strong>Order Summary:</strong></p>
+      <ul>
+        <li>Product: Awesome Gadget</li>
+        <li>Quantity: 1</li>
+        <li>Total: $99.99</li>
+      </ul>
+      <p>You can view your order details and track shipping by clicking the button below:</p>
+      <a href="https://projecthubcenter.com" class="button">View Order</a>
+    </div>
+    <div class="footer">
+      &copy; 2025 Your Company. All rights reserved.
+    </div>
+  </div>
+</body>
+</html>
