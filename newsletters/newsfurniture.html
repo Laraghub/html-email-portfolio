@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="x-apple-disable-message-reformatting">
+<meta name="format-detection" content="telephone=no,address=no,email=no">
+<title>Newsletter</title>
+
+<style>
+  table { border-collapse: collapse; }
+  img { border: 0; display: block; height: auto; }
+  p { margin: 0; }
+
+  :root {
+    color-scheme: light dark;
+    supported-color-schemes: light dark;
+  }
+
+  /* Dark mode */
+  @media (prefers-color-scheme: dark) {
+    body, .bg-light {
+      background-color: #121212 !important;
+    }
+    .container {
+      background-color: #1e1e1e !important;
+    }
+    .text-dark {
+      color: #ffffff !important;
+    }
+    .divider {
+      background-color: #333333 !important;
+    }
+    .logo-light {
+      display:none !important;
+    }
+    .logo-dark {
+      display:block !important;
+    }
+    img {
+      filter: none !important;
+    }
+  }
+
+  /* Hybrid mobile */
+  @media screen and (max-width:600px) {
+    .container {
+      width:100% !important;
+    }
+    .fluid-column {
+      display:block !important;
+      width:100% !important;
+      max-width:100% !important;
+    }
+    .mobile-padding {
+      padding:16px !important;
+    }
+    .center-mobile {
+      text-align:center !important;
+    }
+  }
+</style>
+</head>
+
+<body style="margin:0; padding:0; background-color:#f4f4f4;" class="bg-light">
+
+<!-- PREHEADER -->
+<div style="display:none; font-size:1px; line-height:1px; max-height:0; max-width:0; opacity:0; overflow:hidden;">
+Discover new features, updates, and exclusive offers.
+&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
+</div>
+
+<table role="presentation" width="100%" bgcolor="#f4f4f4">
+<tr>
+<td align="center">
+
+<table role="presentation" width="100%" class="container" style="max-width:600px; background-color:#ffffff;">
+
+<!-- LOGO -->
+<tr>
+<td align="center" style="padding:20px;">
+<img src="https://imgur.com/p0lqv0w" width="160" alt="Company logo" class="logo-light">
+<img src="https://imgur.com/p0lqv0w" width="160" alt="Company logo" class="logo-dark" style="display:none;">
+</td>
+</tr>
+
+<!-- HERO -->
+<tr>
+<td>
+<img src="https://imgur.com/PZrM8g2"
+     width="600"
+     alt="Hero banner"
+     style="width:100%; max-width:600px;">
+</td>
+</tr>
+
+<!-- DIVIDER -->
+<tr>
+<td style="padding:20px 0;">
+<table role="presentation" width="100%">
+<tr>
+<td height="1" bgcolor="#dddddd" class="divider" style="font-size:0;">&nbsp;</td>
+</tr>
+</table>
+</td>
+</tr>
+
+<!-- HYBRID FLUID 3 COLUMNS -->
+<tr>
+<td class="mobile-padding" style="padding:20px; font-size:0;">
+
+<!-- COLUMN -->
+<div class="fluid-column"
+     style="display:inline-block; width:100%; max-width:200px; vertical-align:top; padding:10px;">
+<table role="presentation" width="100%">
+<tr><td align="center">
+<img src="https://imgur.com/kbZ51WL"
+     width="180"
+     alt="Feature image"
+     style="width:100%; max-width:180px;">
+<p class="text-dark" style="font-family:Arial,sans-serif;font-size:14px;line-height:20px;color:#333333;padding:10px 0;">
+Feature description
+</p>
+
+<!-- HYBRID BUTTON -->
+<table role="presentation">
+<tr>
+<td bgcolor="#007BFF" style="border-radius:4px;">
+<!--[if mso]>
+<v:roundrect xmlns:v="urn:schemas-microsoft-com:vml"
+href="https://example.com?utm_source=newsletter&utm_medium=email&utm_campaign=launch"
+style="height:44px;v-text-anchor:middle;width:160px;"
+arcsize="10%" fillcolor="#007BFF" stroke="f">
+<w:anchorlock/>
+<center style="color:#ffffff;font-family:Arial,sans-serif;font-size:14px;font-weight:bold;">
+Get Started
+</center>
+</v:roundrect>
+<![endif]-->
+<!--[if !mso]><!-- -->
+<a href="https://example.com?utm_source=newsletter&utm_medium=email&utm_campaign=launch"
+style="display:inline-block;padding:12px 24px;font-family:Arial,sans-serif;font-size:14px;font-weight:bold;color:#ffffff;text-decoration:none;">
+Get Started
+</a>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+
+</td></tr>
+</table>
+</div>
+
+<!-- Repeat column x2 -->
+ 
+<!-- (identical structure, different content/images) -->
+
+</td>
+</tr>
+
+<!-- SOCIAL -->
+<tr>
+<td align="center" style="padding:20px;">
+<table role="presentation">
+<tr>
+<td style="padding:0 6px;"><a href="https://facebook.com"><img alt="Facebook" src="https://cdn-icons-png.flaticon.com/24/733/733547.png"></a></td>
+<td style="padding:0 6px;"><a href="https://twitter.com"><img alt="X Twitter" src="https://cdn-icons-png.flaticon.com/24/733/733579.png"></a></td>
+<td style="padding:0 6px;"><a href="https://instagram.com"><img alt="Instagram" src="https://cdn-icons-png.flaticon.com/24/733/733558.png"></a></td>
+<td style="padding:0 6px;"><a href="https://youtube.com"><img alt="YouTube" src="https://cdn-icons-png.flaticon.com/24/733/733646.png"></a></td>
+<td style="padding:0 6px;"><a href="https://pinterest.com"><img alt="Pinterest" src="https://cdn-icons-png.flaticon.com/24/733/733636.png"></a></td>
+</tr>
+</table>
+</td>
+</tr>
+
+<!-- FOOTER -->
+<tr>
+<td align="center" style="padding:20px;font-family:Arial,sans-serif;font-size:12px;color:#777777;">
+© 2025 Company Name<br>
+<a href="%%unsubscribe%%" style="color:#777777;">Unsubscribe</a>
+</td>
+</tr>
+
+</table>
+</td>
+</tr>
+</table>
+
+</body>
+</html>
